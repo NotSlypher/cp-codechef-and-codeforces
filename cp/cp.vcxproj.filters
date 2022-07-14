@@ -591,5 +591,8 @@
     <ClCompile Include="COPYPUSH.cpp">
       <Filter>codechef\CodeChef Starters\Starters 47 Division 2 %28Rated%29</Filter>
     </ClCompile>
+    <ClCompile Include="ORXOR.cpp">
+      <Filter>codechef\CodeChef Starters\Starters 47 Division 2 %28Rated%29</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
