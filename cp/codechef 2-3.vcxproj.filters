@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\2-3">
+      <UniqueIdentifier>{30b03780-b7b1-49e5-98af-c10164b8c68c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2-3\Basic Programming Concepts">
+      <UniqueIdentifier>{d847317e-0b92-4427-a476-ce9dc1b9f437}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2-3\sorting">
+      <UniqueIdentifier>{ef9be866-2d21-40e1-bc14-745d865f6ab4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2-3\Binary search">
+      <UniqueIdentifier>{8c8ed255-ae86-45db-84d3-a52790249e94}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MAKEDIV3.cpp">
+      <Filter>Source Files\2-3\Basic Programming Concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="INDIPERM.cpp">
+      <Filter>Source Files\2-3\Basic Programming Concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="MINPIZZAS.cpp">
+      <Filter>Source Files\2-3\Basic Programming Concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="MANYSUMS.cpp">
+      <Filter>Source Files\2-3\Basic Programming Concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="NFS.cpp">
+      <Filter>Source Files\2-3\Basic Programming Concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="ALTER.cpp">
+      <Filter>Source Files\2-3\Basic Programming Concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="SMPAIR.cpp">
+      <Filter>Source Files\2-3\sorting</Filter>
+    </ClCompile>
+    <ClCompile Include="TACHSTCK.cpp">
+      <Filter>Source Files\2-3\sorting</Filter>
+    </ClCompile>
+    <ClCompile Include="DIV03.cpp">
+      <Filter>Source Files\2-3\sorting</Filter>
+    </ClCompile>
+    <ClCompile Include="SRTCHK.cpp">
+      <Filter>Source Files\2-3\sorting</Filter>
+    </ClCompile>
+    <ClCompile Include="CNTSORT.cpp">
+      <Filter>Source Files\2-3\sorting</Filter>
+    </ClCompile>
+    <ClCompile Include="MIXCOLOR.cpp">
+      <Filter>Source Files\2-3\sorting</Filter>
+    </ClCompile>
+    <ClCompile Include="MIXCOLOR_perfect.cpp">
+      <Filter>Source Files\2-3\sorting</Filter>
+    </ClCompile>
+    <ClCompile Include="PTMSSNG.cpp">
+      <Filter>Source Files\2-3\sorting</Filter>
+    </ClCompile>
+    <ClCompile Include="CM164364.cpp">
+      <Filter>Source Files\2-3\sorting</Filter>
+    </ClCompile>
+    <ClCompile Include="MEX.cpp">
+      <Filter>Source Files\2-3\sorting</Filter>
+    </ClCompile>
+    <ClCompile Include="SUBS.cpp">
+      <Filter>Source Files\2-3\sorting</Filter>
+    </ClCompile>
+    <ClCompile Include="CNTDIST.cpp">
+      <Filter>Source Files\2-3\sorting</Filter>
+    </ClCompile>
+    <ClCompile Include="EQDIFFER.cpp">
+      <Filter>Source Files\2-3\sorting</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOKCHEF.cpp">
+      <Filter>Source Files\2-3\sorting</Filter>
+    </ClCompile>
+    <ClCompile Include="JAVELIN.cpp">
+      <Filter>Source Files\2-3\sorting</Filter>
+    </ClCompile>
+    <ClCompile Include="REMONE.cpp">
+      <Filter>Source Files\2-3\sorting</Filter>
+    </ClCompile>
+    <ClCompile Include="PSORT3.cpp">
+      <Filter>Source Files\2-3\sorting</Filter>
+    </ClCompile>
+    <ClCompile Include="SWPSRT1.cpp">
+      <Filter>Source Files\2-3\sorting</Filter>
+    </ClCompile>
+    <ClCompile Include="CHEFRES.cpp">
+      <Filter>Source Files\2-3\sorting</Filter>
+    </ClCompile>
+    <ClCompile Include="MINEAT.cpp">
+      <Filter>Source Files\2-3\Binary search</Filter>
+    </ClCompile>
+    <ClCompile Include="MAKEEQUAL.cpp">
+      <Filter>Source Files\2-3\sorting</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

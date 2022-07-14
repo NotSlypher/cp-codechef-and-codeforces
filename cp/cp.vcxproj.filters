@@ -1,0 +1,595 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="nptel">
+      <UniqueIdentifier>{376fcaa4-0430-461a-9326-23c2812d73fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nptel\week1">
+      <UniqueIdentifier>{c7a84869-514f-4447-97e0-f9f872a95535}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="codechef">
+      <UniqueIdentifier>{45c233d5-96da-4e24-9471-6103f30d46a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="atcoder">
+      <UniqueIdentifier>{6418b3d6-b44b-4c9a-b535-b9c4544db629}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="atcoder\AtCoder Beginner Contest 237">
+      <UniqueIdentifier>{52e8b922-39e0-4baa-ab52-0c7507a05e0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="codechef\Pradnya%2722 Wildcard">
+      <UniqueIdentifier>{9e1e8eff-905c-40d3-8d70-227f70b57f30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Google CodeJam">
+      <UniqueIdentifier>{52bf3062-2aa3-4a98-991a-8b5ee4b235f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Google CodeJam\Qualification Round 2022 - Code Jam 2022">
+      <UniqueIdentifier>{9f3fb38e-a322-4e8e-9c38-dd248cbdc604}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Google CodeJam\Round 1A 2022">
+      <UniqueIdentifier>{7923c8b2-d645-4aa9-b00b-9c34bf76e17c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Codeforces">
+      <UniqueIdentifier>{26fd339e-439d-45c4-961c-e0a5ebdd384e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="codechef\CodeChef Long Challenges">
+      <UniqueIdentifier>{30114c2a-3b89-4c90-ba8b-407def5a67c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="codechef\CodeChef Long Challenges\May Long One 2022 Division 3 %28Rated%29">
+      <UniqueIdentifier>{6bbbfa69-2320-466d-bc69-35d16b1ceb2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="codechef\CodeChef Long Challenges\March Long 2022 - I, Division 3 %28Rated%29">
+      <UniqueIdentifier>{fd2589b3-6a71-495a-a8d9-42d213726a94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="codechef\CodeChef Long Challenges\February Long 2022 - I">
+      <UniqueIdentifier>{ca4be04a-2cea-4ed2-bde5-a11a0b72d56f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="codechef\CodeChef Long Challenges\April Long One 2022, Division 3 %28Rated%29">
+      <UniqueIdentifier>{75568f8b-2760-4a1e-88be-fb168d37c512}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="codechef\CodeChef Long Challenges\April Long Two 2022 Division 3 %28Rated%29">
+      <UniqueIdentifier>{1818a2d1-1d24-4e21-98e3-090c7795c54c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="codechef\CodeChef Starters">
+      <UniqueIdentifier>{507577ae-9105-4143-9f2c-bbee99fef9bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="codechef\CodeChef Starters\CodeChef Starters 36 Division 3%28Rated%29">
+      <UniqueIdentifier>{57c44004-b725-4a26-bc41-aeab4a42d209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="codechef\CodeChef Starters\CodeChef Starters 33 Division 4 %28Rated%29">
+      <UniqueIdentifier>{4186c9df-a031-4d54-b1e8-279c8820cbc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="codechef\CodeChef Starters\CodeChef Starters 32 Division 4 %28Rated%29">
+      <UniqueIdentifier>{862c1f0e-3e4c-41c9-8ece-3a710860b158}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="codechef\CodeChef Starters\CodeChef Starters 30 %28Rated for Div 2, 3, &amp; 4%29">
+      <UniqueIdentifier>{b2d5b230-c786-44e7-9bc6-a6f9f2965871}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="codechef\CodeChef Starters\CodeChef Starters 29 Division 2 %28Rated%29">
+      <UniqueIdentifier>{46873205-a693-4fb3-adad-182dee348d99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="codechef\CodeChef Starters\CodeChef Starters 28 Division 2 %28Rated%29">
+      <UniqueIdentifier>{e8b7b315-1305-4cf2-a727-639906139580}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="codechef\CodeChef Starters\CodeChef Starters 27 Division 3 %28Rated%29">
+      <UniqueIdentifier>{c0e1fdf0-a401-4d84-82b7-8a2cb02c9289}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="codechef\CodeChef Starters\CodeChef Starters 24 %28Rated for Div-2 &amp; Div-3%29">
+      <UniqueIdentifier>{24f3a331-3553-4592-89b3-990b396131de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="codechef\CodeChef LunchTime and CookOff">
+      <UniqueIdentifier>{ad960e99-f35a-4392-b125-b03f923eee77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="codechef\CodeChef LunchTime and CookOff\May Cook-Off 2022 Division 3 %28Rated%29">
+      <UniqueIdentifier>{acc8e6ba-56d8-49d0-9fae-33680bd794a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="codechef\CodeChef LunchTime and CookOff\March Cook-Off 2022 Division 2">
+      <UniqueIdentifier>{0679d442-7cb0-405e-ac07-802cf90f8f99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="codechef\CodeChef LunchTime and CookOff\January Lunchtime 2022">
+      <UniqueIdentifier>{299e6560-26f0-4a2f-ae8f-43924b1dbd07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="codechef\CodeChef LunchTime and CookOff\February Lunchtime 2022">
+      <UniqueIdentifier>{918c7d2f-961a-4cf7-9a55-70c50cc435c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="codechef\CodeChef LunchTime and CookOff\February Cook-Off 2022 Division 3">
+      <UniqueIdentifier>{2d70cf4f-7466-4eb2-a918-71f0f6b52eda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="codechef\CodeChef LunchTime and CookOff\April Cook-Off 2022 Division 4%28Rated%29">
+      <UniqueIdentifier>{02fa818a-bc0e-4e81-a75c-a896c3e50cf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="codechef\CodeChef Starters\CodeChef Starters 38 Division 2 %28Rated%29">
+      <UniqueIdentifier>{c983811d-ff67-447b-8908-c05d440c9408}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="codechef\CodeChef Long Challenges\May Long Two 2022 Division 2 %28Unrated%29">
+      <UniqueIdentifier>{dcd96ec1-8f7d-4474-a328-c6764057d874}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Atcoders">
+      <UniqueIdentifier>{fc90d521-b552-4716-811e-d8b4d671328f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="codechef\CodeChef Starters\Starters 43 Division 2 %28Rated%29">
+      <UniqueIdentifier>{d4125c3b-4472-45b3-83af-03fe72a3aeb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="codechef\CodeChef Long Challenges\June Long Two 2022 %28Rated for Div 3 &amp; 4%29">
+      <UniqueIdentifier>{1483f714-fcf8-4bde-a001-1b5725a6e8cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Codeforces\Practice">
+      <UniqueIdentifier>{0f7997e5-23ea-4d41-a205-3a667db44096}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Codeforces\Contest">
+      <UniqueIdentifier>{bf912559-f3ad-47cb-8d6c-82ab3515502f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Codeforces\Contest\Educational Codeforces Round 126 %28Rated for Div. 2%29">
+      <UniqueIdentifier>{3a376c3c-7a9b-4a8d-90a3-b32cb2bfdaad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Codeforces\Contest\CodeCraft-22 and Codeforces Round #795 %28Div. 2%29">
+      <UniqueIdentifier>{f45be4b9-ec3a-420b-8e4e-177d27753891}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Codeforces\Contest\Codeforces Round #784 %28Div. 4%29">
+      <UniqueIdentifier>{143f5fae-6569-4462-9f2a-3befb72e10c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Codeforces\Contest\Codeforces Round #785 %28Div. 2%29">
+      <UniqueIdentifier>{30cdfe05-0803-4103-9889-838be124e538}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Codeforces\Contest\Codeforces Round #786 %28Div. 3%29">
+      <UniqueIdentifier>{4973daa5-f173-4e28-8bbb-ad022dd16837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Codeforces\Contest\Codeforces Round #787 %28Div. 3%29">
+      <UniqueIdentifier>{1223ba32-8f09-4380-bb8f-80cf7ddb075e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Codeforces\Contest\Codeforces Round #790 %28Div. 4%29">
+      <UniqueIdentifier>{8c2ba9c2-81a2-46c7-9126-1eed454e2bfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Codeforces\Contest\Codeforces Round #796 %28Div. 2%29">
+      <UniqueIdentifier>{9cdad4cc-be63-4a0d-a48e-d70fabedc126}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Codeforces\Contest\Codeforces Round #799 %28Div. 4%29">
+      <UniqueIdentifier>{59e00c59-ec68-43ab-840f-1ee7326f88c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="codechef\CodeChef Starters\Starters 47 Division 2 %28Rated%29">
+      <UniqueIdentifier>{fe01920a-a52c-478d-9d1e-3e5e957ff3eb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="reversort.cpp">
+      <Filter>nptel\week1</Filter>
+    </ClCompile>
+    <ClCompile Include="LOCKDRAW.cpp">
+      <Filter>codechef\CodeChef LunchTime and CookOff\January Lunchtime 2022</Filter>
+    </ClCompile>
+    <ClCompile Include="2SUBSTADD.cpp">
+      <Filter>codechef\CodeChef LunchTime and CookOff\January Lunchtime 2022</Filter>
+    </ClCompile>
+    <ClCompile Include="3SUBPERM.cpp">
+      <Filter>codechef\CodeChef LunchTime and CookOff\January Lunchtime 2022</Filter>
+    </ClCompile>
+    <ClCompile Include="4PREZ.cpp">
+      <Filter>codechef\CodeChef LunchTime and CookOff\January Lunchtime 2022</Filter>
+    </ClCompile>
+    <ClCompile Include="Not Overflow.cpp">
+      <Filter>atcoder\AtCoder Beginner Contest 237</Filter>
+    </ClCompile>
+    <ClCompile Include="B - Matrix Transpositione.cpp">
+      <Filter>atcoder\AtCoder Beginner Contest 237</Filter>
+    </ClCompile>
+    <ClCompile Include="C - kasaka.cpp">
+      <Filter>atcoder\AtCoder Beginner Contest 237</Filter>
+    </ClCompile>
+    <ClCompile Include="BADMINTON.cpp">
+      <Filter>codechef\CodeChef Starters\CodeChef Starters 24 %28Rated for Div-2 &amp; Div-3%29</Filter>
+    </ClCompile>
+    <ClCompile Include="ANTI_PAL.cpp">
+      <Filter>codechef\CodeChef Starters\CodeChef Starters 24 %28Rated for Div-2 &amp; Div-3%29</Filter>
+    </ClCompile>
+    <ClCompile Include="CHEFBARBER.cpp">
+      <Filter>codechef\CodeChef Long Challenges\February Long 2022 - I</Filter>
+    </ClCompile>
+    <ClCompile Include="EUREKA.cpp">
+      <Filter>codechef\CodeChef Long Challenges\February Long 2022 - I</Filter>
+    </ClCompile>
+    <ClCompile Include="BINBASBASIC.cpp">
+      <Filter>codechef\CodeChef Long Challenges\February Long 2022 - I</Filter>
+    </ClCompile>
+    <ClCompile Include="MAYOR_PARTY.cpp">
+      <Filter>codechef\CodeChef LunchTime and CookOff\February Cook-Off 2022 Division 3</Filter>
+    </ClCompile>
+    <ClCompile Include="HOLIDAYS.cpp">
+      <Filter>codechef\CodeChef LunchTime and CookOff\February Cook-Off 2022 Division 3</Filter>
+    </ClCompile>
+    <ClCompile Include="PREFPERM.cpp">
+      <Filter>codechef\CodeChef LunchTime and CookOff\February Cook-Off 2022 Division 3</Filter>
+    </ClCompile>
+    <ClCompile Include="PERFPERM.cpp">
+      <Filter>codechef\CodeChef LunchTime and CookOff\February Cook-Off 2022 Division 3</Filter>
+    </ClCompile>
+    <ClCompile Include="BLACKJACK.cpp">
+      <Filter>codechef\CodeChef Starters\CodeChef Starters 27 Division 3 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="POLYBAGS.cpp">
+      <Filter>codechef\CodeChef Starters\CodeChef Starters 27 Division 3 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="PRODUCT.cpp">
+      <Filter>codechef\CodeChef Starters\CodeChef Starters 27 Division 3 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="BINSTRING.cpp">
+      <Filter>codechef\CodeChef Starters\CodeChef Starters 27 Division 3 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="STR_REVERSE.cpp">
+      <Filter>codechef\CodeChef Starters\CodeChef Starters 27 Division 3 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="NCOPRIMEN.cpp">
+      <Filter>codechef\CodeChef Starters\CodeChef Starters 27 Division 3 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="NIBBLE.cpp">
+      <Filter>codechef\CodeChef LunchTime and CookOff\February Lunchtime 2022</Filter>
+    </ClCompile>
+    <ClCompile Include="MOVIE2X.cpp">
+      <Filter>codechef\CodeChef LunchTime and CookOff\February Lunchtime 2022</Filter>
+    </ClCompile>
+    <ClCompile Include="PLPROCESS.cpp">
+      <Filter>codechef\CodeChef LunchTime and CookOff\February Lunchtime 2022</Filter>
+    </ClCompile>
+    <ClCompile Include="DISTCON.cpp">
+      <Filter>codechef\CodeChef LunchTime and CookOff\February Lunchtime 2022</Filter>
+    </ClCompile>
+    <ClCompile Include="MAGICMOD.cpp">
+      <Filter>codechef\CodeChef LunchTime and CookOff\February Lunchtime 2022</Filter>
+    </ClCompile>
+    <ClCompile Include="MAGNETSORT.cpp">
+      <Filter>codechef\CodeChef LunchTime and CookOff\February Lunchtime 2022</Filter>
+    </ClCompile>
+    <ClCompile Include="SUNDAY.cpp">
+      <Filter>codechef\CodeChef Starters\CodeChef Starters 28 Division 2 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="PERMXORITY.cpp">
+      <Filter>codechef\CodeChef Starters\CodeChef Starters 28 Division 2 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="JMARKET.cpp">
+      <Filter>codechef\CodeChef LunchTime and CookOff\March Cook-Off 2022 Division 2</Filter>
+    </ClCompile>
+    <ClCompile Include="MEXSPLIT.cpp">
+      <Filter>codechef\CodeChef LunchTime and CookOff\March Cook-Off 2022 Division 2</Filter>
+    </ClCompile>
+    <ClCompile Include="ALTERNATEDIV.cpp">
+      <Filter>codechef\CodeChef LunchTime and CookOff\March Cook-Off 2022 Division 2</Filter>
+    </ClCompile>
+    <ClCompile Include="FIXWEIGHT.cpp">
+      <Filter>codechef\CodeChef LunchTime and CookOff\March Cook-Off 2022 Division 2</Filter>
+    </ClCompile>
+    <ClCompile Include="STRP.cpp">
+      <Filter>codechef\CodeChef Starters\CodeChef Starters 29 Division 2 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="PMA.cpp">
+      <Filter>codechef\CodeChef Starters\CodeChef Starters 29 Division 2 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="WORDLEcpp.cpp">
+      <Filter>codechef\CodeChef Long Challenges\March Long 2022 - I, Division 3 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="CHFCLASS.cpp">
+      <Filter>codechef\CodeChef Long Challenges\March Long 2022 - I, Division 3 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="CHFDBT.cpp">
+      <Filter>codechef\CodeChef Long Challenges\March Long 2022 - I, Division 3 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="GENIUS.cpp">
+      <Filter>codechef\CodeChef Long Challenges\March Long 2022 - I, Division 3 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="SUBSTRING.cpp">
+      <Filter>codechef\CodeChef Long Challenges\March Long 2022 - I, Division 3 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="SUB_XOR.cpp">
+      <Filter>codechef\CodeChef Long Challenges\March Long 2022 - I, Division 3 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="BALREV.cpp">
+      <Filter>codechef\CodeChef Starters\CodeChef Starters 30 %28Rated for Div 2, 3, &amp; 4%29</Filter>
+    </ClCompile>
+    <ClCompile Include="GFTSHP.cpp">
+      <Filter>codechef\CodeChef Starters\CodeChef Starters 30 %28Rated for Div 2, 3, &amp; 4%29</Filter>
+    </ClCompile>
+    <ClCompile Include="CHEFCHOCO.cpp">
+      <Filter>codechef\CodeChef Starters\CodeChef Starters 30 %28Rated for Div 2, 3, &amp; 4%29</Filter>
+    </ClCompile>
+    <ClCompile Include="CHEFBOTTLE.cpp">
+      <Filter>codechef\CodeChef Starters\CodeChef Starters 30 %28Rated for Div 2, 3, &amp; 4%29</Filter>
+    </ClCompile>
+    <ClCompile Include="SWAPCW.cpp">
+      <Filter>codechef\CodeChef Starters\CodeChef Starters 30 %28Rated for Div 2, 3, &amp; 4%29</Filter>
+    </ClCompile>
+    <ClCompile Include="MINCOLOR.cpp">
+      <Filter>codechef\CodeChef Starters\CodeChef Starters 30 %28Rated for Div 2, 3, &amp; 4%29</Filter>
+    </ClCompile>
+    <ClCompile Include="PRDW02.cpp">
+      <Filter>codechef\Pradnya%2722 Wildcard</Filter>
+    </ClCompile>
+    <ClCompile Include="VOLCONTROL.cpp">
+      <Filter>codechef\CodeChef Starters\CodeChef Starters 32 Division 4 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="COURSEREG.cpp">
+      <Filter>codechef\CodeChef Starters\CodeChef Starters 32 Division 4 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FINDSHOES.cpp">
+      <Filter>codechef\CodeChef Starters\CodeChef Starters 32 Division 4 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="BSCOST.cpp">
+      <Filter>codechef\CodeChef Starters\CodeChef Starters 32 Division 4 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="MAXTHEMIN.cpp">
+      <Filter>codechef\CodeChef Starters\CodeChef Starters 32 Division 4 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FLIPSORT.cpp">
+      <Filter>codechef\CodeChef Starters\CodeChef Starters 32 Division 4 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Punched Cards.cpp">
+      <Filter>Google CodeJam\Qualification Round 2022 - Code Jam 2022</Filter>
+    </ClCompile>
+    <ClCompile Include="3D Printing.cpp">
+      <Filter>Google CodeJam\Qualification Round 2022 - Code Jam 2022</Filter>
+    </ClCompile>
+    <ClCompile Include="A.EMAILREM.cpp">
+      <Filter>codechef\CodeChef LunchTime and CookOff\April Cook-Off 2022 Division 4%28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="B.CHEFPAGES.cpp">
+      <Filter>codechef\CodeChef LunchTime and CookOff\April Cook-Off 2022 Division 4%28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="C.DIGARR.cpp">
+      <Filter>codechef\CodeChef LunchTime and CookOff\April Cook-Off 2022 Division 4%28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="D.DIGSMPAR.cpp">
+      <Filter>codechef\CodeChef LunchTime and CookOff\April Cook-Off 2022 Division 4%28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="E.FUNHAND.cpp">
+      <Filter>codechef\CodeChef LunchTime and CookOff\April Cook-Off 2022 Division 4%28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="F.RECSTI.cpp">
+      <Filter>codechef\CodeChef LunchTime and CookOff\April Cook-Off 2022 Division 4%28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="C.d1000000.cpp">
+      <Filter>Google CodeJam\Qualification Round 2022 - Code Jam 2022</Filter>
+    </ClCompile>
+    <ClCompile Include="TRAINPLN.cpp">
+      <Filter>codechef\CodeChef Starters\CodeChef Starters 32 Division 4 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="TWOMERCHANTS.cpp">
+      <Filter>codechef\CodeChef Starters\CodeChef Starters 32 Division 4 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="A.CABS.cpp">
+      <Filter>codechef\CodeChef Starters\CodeChef Starters 33 Division 4 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="B.BUDGET_.cpp">
+      <Filter>codechef\CodeChef Starters\CodeChef Starters 33 Division 4 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="C.MINCARS.cpp">
+      <Filter>codechef\CodeChef Starters\CodeChef Starters 33 Division 4 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="D.NONADJFLIP.cpp">
+      <Filter>codechef\CodeChef Starters\CodeChef Starters 33 Division 4 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="E.DISTDILEM.cpp">
+      <Filter>codechef\CodeChef Starters\CodeChef Starters 33 Division 4 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="F.MTE.cpp">
+      <Filter>codechef\CodeChef Starters\CodeChef Starters 33 Division 4 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="G.BRKNLIFE.cpp">
+      <Filter>codechef\CodeChef Starters\CodeChef Starters 33 Division 4 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="A.The Cooler Dilemma 2.cpp">
+      <Filter>codechef\CodeChef Long Challenges\April Long One 2022, Division 3 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="B.NOTUNIT.cpp">
+      <Filter>codechef\CodeChef Long Challenges\April Long One 2022, Division 3 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="C.AXNODR.cpp">
+      <Filter>codechef\CodeChef Long Challenges\April Long One 2022, Division 3 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="A.Double or One Thing.cpp">
+      <Filter>Google CodeJam\Round 1A 2022</Filter>
+    </ClCompile>
+    <ClCompile Include="D.PRIMESM.cpp">
+      <Filter>codechef\CodeChef Long Challenges\April Long One 2022, Division 3 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="E.XORABC.cpp">
+      <Filter>codechef\CodeChef Long Challenges\April Long One 2022, Division 3 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="A. Array Balancing.cpp">
+      <Filter>Codeforces\Contest\Educational Codeforces Round 126 %28Rated for Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="F.MINMAXEQ.cpp">
+      <Filter>codechef\CodeChef Long Challenges\April Long One 2022, Division 3 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="G.CHEFSHOPPING.cpp">
+      <Filter>codechef\CodeChef LunchTime and CookOff\April Cook-Off 2022 Division 4%28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="A. Division.cpp">
+      <Filter>Codeforces\Contest\Codeforces Round #784 %28Div. 4%29</Filter>
+    </ClCompile>
+    <ClCompile Include="B. Triple.cpp">
+      <Filter>Codeforces\Contest\Codeforces Round #784 %28Div. 4%29</Filter>
+    </ClCompile>
+    <ClCompile Include="C. OddEven Increments.cpp">
+      <Filter>Codeforces\Contest\Codeforces Round #784 %28Div. 4%29</Filter>
+    </ClCompile>
+    <ClCompile Include="A.CHEAPFOOD.cpp">
+      <Filter>codechef\CodeChef Long Challenges\April Long Two 2022 Division 3 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="B.SST.cpp">
+      <Filter>codechef\CodeChef Long Challenges\April Long Two 2022 Division 3 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="C.PSEUDOSORT.cpp">
+      <Filter>codechef\CodeChef Long Challenges\April Long Two 2022 Division 3 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="D.GMINEQ.cpp">
+      <Filter>codechef\CodeChef Long Challenges\April Long Two 2022 Division 3 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="A.BIRDFARM.cpp">
+      <Filter>codechef\CodeChef Starters\CodeChef Starters 36 Division 3%28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="B.PRESENTS.cpp">
+      <Filter>codechef\CodeChef Starters\CodeChef Starters 36 Division 3%28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="C.BUYSWEET.cpp">
+      <Filter>codechef\CodeChef Starters\CodeChef Starters 36 Division 3%28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="D.RED1.cpp">
+      <Filter>codechef\CodeChef Starters\CodeChef Starters 36 Division 3%28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="E.VALVEX.cpp">
+      <Filter>codechef\CodeChef Starters\CodeChef Starters 36 Division 3%28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="A. Subtle Substring Subtraction.cpp">
+      <Filter>Codeforces\Contest\Codeforces Round #785 %28Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="A.POOK.cpp">
+      <Filter>codechef\CodeChef LunchTime and CookOff\May Cook-Off 2022 Division 3 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="B.LEAGUE.cpp">
+      <Filter>codechef\CodeChef LunchTime and CookOff\May Cook-Off 2022 Division 3 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="C.DOUBLEDDIST.cpp">
+      <Filter>codechef\CodeChef LunchTime and CookOff\May Cook-Off 2022 Division 3 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="D.TRIPLE_INVS.cpp">
+      <Filter>codechef\CodeChef LunchTime and CookOff\May Cook-Off 2022 Division 3 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="A. Number Transformation.cpp">
+      <Filter>Codeforces\Contest\Codeforces Round #786 %28Div. 3%29</Filter>
+    </ClCompile>
+    <ClCompile Include="B. Dictionary.cpp">
+      <Filter>Codeforces\Contest\Codeforces Round #786 %28Div. 3%29</Filter>
+    </ClCompile>
+    <ClCompile Include="C. Infinite Replacement.cpp">
+      <Filter>Codeforces\Contest\Codeforces Round #786 %28Div. 3%29</Filter>
+    </ClCompile>
+    <ClCompile Include="A. Food for Animals.cpp">
+      <Filter>Codeforces\Contest\Codeforces Round #787 %28Div. 3%29</Filter>
+    </ClCompile>
+    <ClCompile Include="B. Make It Increasing.cpp">
+      <Filter>Codeforces\Contest\Codeforces Round #787 %28Div. 3%29</Filter>
+    </ClCompile>
+    <ClCompile Include="C. Detective Task.cpp">
+      <Filter>Codeforces\Contest\Codeforces Round #787 %28Div. 3%29</Filter>
+    </ClCompile>
+    <ClCompile Include="A.SUGARCANE.cpp">
+      <Filter>codechef\CodeChef Long Challenges\May Long One 2022 Division 3 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="B.QUEENATTACK.cpp">
+      <Filter>codechef\CodeChef Long Challenges\May Long One 2022 Division 3 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="C.PUSH7PA.cpp">
+      <Filter>codechef\CodeChef Long Challenges\May Long One 2022 Division 3 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="D.XORGAND.cpp">
+      <Filter>codechef\CodeChef Long Challenges\May Long One 2022 Division 3 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="E.MAGICSTONE.cpp">
+      <Filter>codechef\CodeChef Long Challenges\May Long One 2022 Division 3 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="A. Lucky.cpp">
+      <Filter>Codeforces\Contest\Codeforces Round #790 %28Div. 4%29</Filter>
+    </ClCompile>
+    <ClCompile Include="B. Equal Candies.cpp">
+      <Filter>Codeforces\Contest\Codeforces Round #790 %28Div. 4%29</Filter>
+    </ClCompile>
+    <ClCompile Include="C. Most Similar Words.cpp">
+      <Filter>Codeforces\Contest\Codeforces Round #790 %28Div. 4%29</Filter>
+    </ClCompile>
+    <ClCompile Include="D. X-Sum.cpp">
+      <Filter>Codeforces\Contest\Codeforces Round #790 %28Div. 4%29</Filter>
+    </ClCompile>
+    <ClCompile Include="E. Eating Queries.cpp">
+      <Filter>Codeforces\Contest\Codeforces Round #790 %28Div. 4%29</Filter>
+    </ClCompile>
+    <ClCompile Include="A.LOOP.cpp">
+      <Filter>codechef\CodeChef Starters\CodeChef Starters 38 Division 2 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="B.GOODPAIRS.cpp">
+      <Filter>codechef\CodeChef Starters\CodeChef Starters 38 Division 2 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="C.AVGGIFT.cpp">
+      <Filter>codechef\CodeChef Starters\CodeChef Starters 38 Division 2 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="D.ABITEZ.cpp">
+      <Filter>codechef\CodeChef Starters\CodeChef Starters 38 Division 2 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="A,MAKEZERO.cpp">
+      <Filter>codechef\CodeChef Long Challenges\May Long Two 2022 Division 2 %28Unrated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="B.XOR_PAL.cpp">
+      <Filter>codechef\CodeChef Long Challenges\May Long Two 2022 Division 2 %28Unrated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="A - ASCII code.cpp">
+      <Filter>Atcoders</Filter>
+    </ClCompile>
+    <ClCompile Include="B - Takahashi%27s Failure.cpp">
+      <Filter>Atcoders</Filter>
+    </ClCompile>
+    <ClCompile Include="C - Slot Strategy.cpp">
+      <Filter>Atcoders</Filter>
+    </ClCompile>
+    <ClCompile Include="A. Beat The Odds.cpp">
+      <Filter>Codeforces\Contest\CodeCraft-22 and Codeforces Round #795 %28Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="B. Shoe shuffling.cpp">
+      <Filter>Codeforces\Contest\CodeCraft-22 and Codeforces Round #795 %28Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="C. Sum of Substrings.cpp">
+      <Filter>Codeforces\Contest\CodeCraft-22 and Codeforces Round #795 %28Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="A. Cirno%27s Perfect Bitmasks Classroom.cpp">
+      <Filter>Codeforces\Contest\Codeforces Round #796 %28Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="B. Patchouli%27s Magical Talisman.cpp">
+      <Filter>Codeforces\Contest\Codeforces Round #796 %28Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="A. Marathon.cpp">
+      <Filter>Codeforces\Contest\Codeforces Round #799 %28Div. 4%29</Filter>
+    </ClCompile>
+    <ClCompile Include="B. All Distinct.cpp">
+      <Filter>Codeforces\Contest\Codeforces Round #799 %28Div. 4%29</Filter>
+    </ClCompile>
+    <ClCompile Include="C. Where%27s the Bishop.cpp">
+      <Filter>Codeforces\Contest\Codeforces Round #799 %28Div. 4%29</Filter>
+    </ClCompile>
+    <ClCompile Include="D. The Clock.cpp">
+      <Filter>Codeforces\Contest\Codeforces Round #799 %28Div. 4%29</Filter>
+    </ClCompile>
+    <ClCompile Include="DISPAL.cpp">
+      <Filter>codechef\CodeChef Starters\Starters 43 Division 2 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="OPTPAIRS.cpp">
+      <Filter>codechef\CodeChef Starters\Starters 43 Division 2 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="MAKEQUAL.cpp">
+      <Filter>codechef\CodeChef Starters\Starters 43 Division 2 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="ACS.cpp">
+      <Filter>codechef\CodeChef Long Challenges\June Long Two 2022 %28Rated for Div 3 &amp; 4%29</Filter>
+    </ClCompile>
+    <ClCompile Include="STRNG.cpp">
+      <Filter>codechef\CodeChef Long Challenges\June Long Two 2022 %28Rated for Div 3 &amp; 4%29</Filter>
+    </ClCompile>
+    <ClCompile Include="B. Moamen and k-subarrays.cpp">
+      <Filter>Codeforces\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="ENDSORTED.cpp">
+      <Filter>codechef\CodeChef Starters\Starters 47 Division 2 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="HEIGHTS.cpp">
+      <Filter>codechef\CodeChef Starters\Starters 47 Division 2 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="COPYPUSH.cpp">
+      <Filter>codechef\CodeChef Starters\Starters 47 Division 2 %28Rated%29</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
