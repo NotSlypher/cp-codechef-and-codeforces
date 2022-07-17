@@ -160,6 +160,9 @@
     <Filter Include="codechef\CodeChef Starters\Starters 47 Division 2 %28Rated%29">
       <UniqueIdentifier>{fe01920a-a52c-478d-9d1e-3e5e957ff3eb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="codechef\CodeChef LunchTime and CookOff\July Lunchtime 2022 Division 2 %28Rated%29">
+      <UniqueIdentifier>{8e0e33c7-fa1a-4c09-9bcb-43277ff4a914}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="reversort.cpp">
@@ -593,6 +596,18 @@
     </ClCompile>
     <ClCompile Include="ORXOR.cpp">
       <Filter>codechef\CodeChef Starters\Starters 47 Division 2 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="EZSPEAK.cpp">
+      <Filter>codechef\CodeChef LunchTime and CookOff\July Lunchtime 2022 Division 2 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="MAKEPALAGAIN.cpp">
+      <Filter>codechef\CodeChef LunchTime and CookOff\July Lunchtime 2022 Division 2 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="MEDMAXMATCH.cpp">
+      <Filter>codechef\CodeChef LunchTime and CookOff\July Lunchtime 2022 Division 2 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="LARGEFAM.cpp">
+      <Filter>codechef\CodeChef LunchTime and CookOff\July Lunchtime 2022 Division 2 %28Rated%29</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
