@@ -163,6 +163,9 @@
     <Filter Include="codechef\CodeChef LunchTime and CookOff\July Lunchtime 2022 Division 2 %28Rated%29">
       <UniqueIdentifier>{8e0e33c7-fa1a-4c09-9bcb-43277ff4a914}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Codeforces\Contest\Educational Codeforces Round 132 %28Rated for Div. 2%29">
+      <UniqueIdentifier>{733cb12c-c1d2-4edb-b248-229bb98e6915}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="reversort.cpp">
@@ -608,6 +611,21 @@
     </ClCompile>
     <ClCompile Include="LARGEFAM.cpp">
       <Filter>codechef\CodeChef LunchTime and CookOff\July Lunchtime 2022 Division 2 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="B. Alphabetical Strings.cpp">
+      <Filter>Codeforces\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="B. Array Reodering.cpp">
+      <Filter>Codeforces\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="A. Three Doors.cpp">
+      <Filter>Codeforces\Contest\Educational Codeforces Round 132 %28Rated for Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="B. Also Try Minecraft.cpp">
+      <Filter>Codeforces\Contest\Educational Codeforces Round 132 %28Rated for Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="C. Recover an RBS.cpp">
+      <Filter>Codeforces\Contest\Educational Codeforces Round 132 %28Rated for Div. 2%29</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
