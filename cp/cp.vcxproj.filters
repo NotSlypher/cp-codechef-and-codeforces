@@ -166,6 +166,9 @@
     <Filter Include="Codeforces\Contest\Educational Codeforces Round 132 %28Rated for Div. 2%29">
       <UniqueIdentifier>{733cb12c-c1d2-4edb-b248-229bb98e6915}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Atcoders\AtCoder Beginner Contest 261">
+      <UniqueIdentifier>{1a3d2ff4-8820-4062-911b-0cffd05c78d7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="reversort.cpp">
@@ -626,6 +629,30 @@
     </ClCompile>
     <ClCompile Include="C. Recover an RBS.cpp">
       <Filter>Codeforces\Contest\Educational Codeforces Round 132 %28Rated for Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="B. Bad Boy.cpp">
+      <Filter>Codeforces\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="A. Exciting Bets.cpp">
+      <Filter>Codeforces\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="A. Odd Divisor.cpp">
+      <Filter>Codeforces\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="A. Mocha and Math.cpp">
+      <Filter>Codeforces\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="A. PizzaForces.cpp">
+      <Filter>Codeforces\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="A - Intersection.cpp">
+      <Filter>Atcoders\AtCoder Beginner Contest 261</Filter>
+    </ClCompile>
+    <ClCompile Include="B - Tournament Result.cpp">
+      <Filter>Atcoders\AtCoder Beginner Contest 261</Filter>
+    </ClCompile>
+    <ClCompile Include="A. Nastia and Nearly Good Numbers.cpp">
+      <Filter>Codeforces\Practice</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
