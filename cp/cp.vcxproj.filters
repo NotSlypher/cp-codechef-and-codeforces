@@ -654,5 +654,8 @@
     <ClCompile Include="A. Nastia and Nearly Good Numbers.cpp">
       <Filter>Codeforces\Practice</Filter>
     </ClCompile>
+    <ClCompile Include="B. Maximum Cost Deletion.cpp">
+      <Filter>Codeforces\Practice</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
