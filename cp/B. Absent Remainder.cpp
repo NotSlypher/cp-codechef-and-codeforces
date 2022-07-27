@@ -17,12 +17,13 @@ int gcd(int a, int b);
 
 void Slypher()
 {
-	ll n, a, b, sum = 0, j = 0;
-	string s;
-	cin >> n >> a >> b >> s;
-	vll parts(n);
-	int m = unique(s.begin(), s.end()) - s.begin();
-	cout << a * n + max(b * n, b * (m / 2 + 1)) << endl;
+	ll n;
+	cin >> n;
+	vll a;
+	vin(a, n);
+	sort(all(a),greater<>());
+	for (int i = 0; i < n/2; ++i)
+		cout << a[i] << " " << a[n-1] << endl;
 }
 
 int main()

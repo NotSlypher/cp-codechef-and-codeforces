@@ -17,12 +17,18 @@ int gcd(int a, int b);
 
 void Slypher()
 {
-	ll n, a, b, sum = 0, j = 0;
-	string s;
-	cin >> n >> a >> b >> s;
-	vll parts(n);
-	int m = unique(s.begin(), s.end()) - s.begin();
-	cout << a * n + max(b * n, b * (m / 2 + 1)) << endl;
+	ll n;
+	cin >> n;
+	if(n == 1)
+	{
+		cout << "NO\n";
+		return;
+	}
+	if(2 * (ll)sqrt(n/2)*sqrt(n/2) == n || 4 * (ll)sqrt(n / 4) * sqrt(n / 4) == n){
+		cout << "YES\n";
+		return;
+	}
+	cout << "NO\n";
 }
 
 int main()

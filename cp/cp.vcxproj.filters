@@ -657,5 +657,17 @@
     <ClCompile Include="B. Maximum Cost Deletion.cpp">
       <Filter>Codeforces\Practice</Filter>
     </ClCompile>
+    <ClCompile Include="C. Not Adjacent Matrix.cpp">
+      <Filter>Codeforces\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="A. K-divisible Sum.cpp">
+      <Filter>Codeforces\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="B. Phoenix and Puzzle.cpp">
+      <Filter>Codeforces\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="B. Absent Remainder.cpp">
+      <Filter>Codeforces\Practice</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -17,12 +17,46 @@ int gcd(int a, int b);
 
 void Slypher()
 {
-	ll n, a, b, sum = 0, j = 0;
-	string s;
-	cin >> n >> a >> b >> s;
-	vll parts(n);
-	int m = unique(s.begin(), s.end()) - s.begin();
-	cout << a * n + max(b * n, b * (m / 2 + 1)) << endl;
+	ll n, temp = 1;
+	cin >> n;
+	if(n == 2)
+	{
+		cout << -1 << endl;
+		return;
+	}
+	vector<vll> a(n);
+	for (int i = 0; i < n; ++i)
+	{
+		for (int j = 0; j < n; ++j)
+		{
+			a[i].push_back(temp);
+			if (i % 2 == 0)
+			{
+				if (j == n - 1)
+					temp++;
+				else
+					temp += n;
+			}
+			else
+			{
+				if (j == 0)
+					temp -= n * (n - 1);
+				else if (j == n - 1)
+					temp -= n * (n - 2) - 1;
+				else
+					temp += n;
+			}
+		}
+	}
+
+	for (int i = 0; i < n; ++i)
+	{
+		for (int j = 0; j < n; ++j)
+		{
+			cout << a[i][j] << " ";
+		}
+		cout << endl;
+	}
 }
 
 int main()
