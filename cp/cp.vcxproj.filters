@@ -169,6 +169,9 @@
     <Filter Include="Atcoders\AtCoder Beginner Contest 261">
       <UniqueIdentifier>{1a3d2ff4-8820-4062-911b-0cffd05c78d7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="codechef\CodeChef Starters\Starters 49 Division 2 %28Rated%29">
+      <UniqueIdentifier>{d7e7ed3a-7eb8-4ab0-9fad-062e708ea7a2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="reversort.cpp">
@@ -668,6 +671,21 @@
     </ClCompile>
     <ClCompile Include="B. Absent Remainder.cpp">
       <Filter>Codeforces\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="B. Berland Music.cpp">
+      <Filter>Codeforces\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="Valid Minimum.cpp">
+      <Filter>codechef\CodeChef Starters\Starters 49 Division 2 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="HIGHFREQ.cpp">
+      <Filter>codechef\CodeChef Starters\Starters 49 Division 2 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="SPLSTR.cpp">
+      <Filter>codechef\CodeChef Starters\Starters 49 Division 2 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="MONKS.cpp">
+      <Filter>codechef\CodeChef Starters\Starters 49 Division 2 %28Rated%29</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
