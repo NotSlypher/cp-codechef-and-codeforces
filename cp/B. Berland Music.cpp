@@ -22,7 +22,7 @@ struct node
 
 bool cmp(node a, node b)
 {
-	return a.r == b.r ? a.p < b.p : a.r > b.r;
+	return a.r == b.r ? a.p < b.p : a.r < b.r;
 }
 
 bool cmp1(node a, node b)
@@ -44,12 +44,13 @@ void Slypher()
 	cin >> s;
 	if (n == 1)
 	{
-		cout << -1 << endl;
+		cout << 1 << endl;
 		return;
 	}
 	for (int i = 0; i < n; ++i)
 		s[i] == '0' ? songs[i].r = 0 : songs[i].r = 1;
 	sort(all(songs), cmp);
+	for (int i = 0; i < n; i++) songs[i].p = i + 1;
 	sort(all(songs), cmp1);
 	for (int i = 0; i < n; ++i)
 	{
