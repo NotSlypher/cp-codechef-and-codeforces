@@ -172,6 +172,9 @@
     <Filter Include="codechef\CodeChef Starters\Starters 49 Division 2 %28Rated%29">
       <UniqueIdentifier>{d7e7ed3a-7eb8-4ab0-9fad-062e708ea7a2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Codeforces\Contest\Codeforces Round #811 %28Div. 3%29">
+      <UniqueIdentifier>{b8328f3c-d77f-4307-82a8-543abaf25cd4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="reversort.cpp">
@@ -686,6 +689,18 @@
     </ClCompile>
     <ClCompile Include="MONKS.cpp">
       <Filter>codechef\CodeChef Starters\Starters 49 Division 2 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="C. Minimum Extraction.cpp">
+      <Filter>Codeforces\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="A. Everyone Loves to Sleep.cpp">
+      <Filter>Codeforces\Contest\Codeforces Round #811 %28Div. 3%29</Filter>
+    </ClCompile>
+    <ClCompile Include="B. Remove Prefix.cpp">
+      <Filter>Codeforces\Contest\Codeforces Round #811 %28Div. 3%29</Filter>
+    </ClCompile>
+    <ClCompile Include="C. Minimum Varied Number.cpp">
+      <Filter>Codeforces\Contest\Codeforces Round #811 %28Div. 3%29</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
