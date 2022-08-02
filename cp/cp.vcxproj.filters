@@ -702,5 +702,8 @@
     <ClCompile Include="C. Minimum Varied Number.cpp">
       <Filter>Codeforces\Contest\Codeforces Round #811 %28Div. 3%29</Filter>
     </ClCompile>
+    <ClCompile Include="B. String LCM.cpp">
+      <Filter>Codeforces\Practice</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
