@@ -175,6 +175,9 @@
     <Filter Include="Codeforces\Contest\Codeforces Round #811 %28Div. 3%29">
       <UniqueIdentifier>{b8328f3c-d77f-4307-82a8-543abaf25cd4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="codechef\CodeChef Starters\Starters 50 Division 2 %28Rated%29">
+      <UniqueIdentifier>{189f0b66-9d17-4c51-b5ce-ea9de00efa0c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="reversort.cpp">
@@ -704,6 +707,21 @@
     </ClCompile>
     <ClCompile Include="B. String LCM.cpp">
       <Filter>Codeforces\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="A. Contest Start.cpp">
+      <Filter>Codeforces\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="PERMGCD.cpp">
+      <Filter>codechef\CodeChef Starters\Starters 50 Division 2 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="AVGPERM.cpp">
+      <Filter>codechef\CodeChef Starters\Starters 50 Division 2 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="SUMPRODSEG.cpp">
+      <Filter>codechef\CodeChef Starters\Starters 50 Division 2 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="BLIMP.cpp">
+      <Filter>codechef\CodeChef Starters\Starters 50 Division 2 %28Rated%29</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
