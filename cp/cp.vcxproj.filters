@@ -178,6 +178,9 @@
     <Filter Include="codechef\CodeChef Starters\Starters 50 Division 2 %28Rated%29">
       <UniqueIdentifier>{189f0b66-9d17-4c51-b5ce-ea9de00efa0c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="codechef\Practice">
+      <UniqueIdentifier>{382fa4eb-be5a-475f-a88f-60fa2c1e032f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="reversort.cpp">
@@ -722,6 +725,9 @@
     </ClCompile>
     <ClCompile Include="BLIMP.cpp">
       <Filter>codechef\CodeChef Starters\Starters 50 Division 2 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="AVGFLEX.cpp">
+      <Filter>codechef\Practice</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
