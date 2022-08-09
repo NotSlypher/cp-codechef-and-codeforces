@@ -181,6 +181,9 @@
     <Filter Include="codechef\Practice">
       <UniqueIdentifier>{382fa4eb-be5a-475f-a88f-60fa2c1e032f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Codeforces\Contest\Codeforces Round #812 %28Div. 2%29">
+      <UniqueIdentifier>{4522965b-8b72-44cb-9e86-841e672a848a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="reversort.cpp">
@@ -728,6 +731,33 @@
     </ClCompile>
     <ClCompile Include="AVGFLEX.cpp">
       <Filter>codechef\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="B. Roof Construction.cpp">
+      <Filter>Codeforces\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="C. Save More Mice.cpp">
+      <Filter>Codeforces\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="A. Traveling Salesman Problem.cpp">
+      <Filter>Codeforces\Contest\Codeforces Round #812 %28Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="B. Optimal Reduction.cpp">
+      <Filter>Codeforces\Contest\Codeforces Round #812 %28Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="C. Build Permutation.cpp">
+      <Filter>Codeforces\Contest\Codeforces Round #812 %28Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="E1. Permutation Minimization by Deque.cpp">
+      <Filter>Codeforces\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="ATTND.cpp">
+      <Filter>codechef\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="VCS.cpp">
+      <Filter>codechef\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="B. MEXor Mixup.cpp">
+      <Filter>Codeforces\Practice</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
