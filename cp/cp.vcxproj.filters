@@ -759,5 +759,11 @@
     <ClCompile Include="B. MEXor Mixup.cpp">
       <Filter>Codeforces\Practice</Filter>
     </ClCompile>
+    <ClCompile Include="CHFPLN.cpp">
+      <Filter>codechef\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="B. Reverse Sort.cpp">
+      <Filter>Codeforces\Practice</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
