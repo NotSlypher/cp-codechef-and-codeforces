@@ -22,7 +22,7 @@ void Slypher()
 	if (is_sorted(s.begin(), s.end()))
 	{
 		cout << 0 << "\n";
-		continue;
+		return;
 	}
 
 	string t = s;
