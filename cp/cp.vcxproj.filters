@@ -777,5 +777,14 @@
     <ClCompile Include="C. Fighting Tournament.cpp">
       <Filter>Codeforces\Contest\Codeforces Round #814 %28Div. 2%29</Filter>
     </ClCompile>
+    <ClCompile Include="B. Triangles on a Rectangle.cpp">
+      <Filter>Codeforces\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="B. Chess Tournament.cpp">
+      <Filter>Codeforces\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="A. Regular Bracket Sequence.cpp">
+      <Filter>Codeforces\Practice</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
