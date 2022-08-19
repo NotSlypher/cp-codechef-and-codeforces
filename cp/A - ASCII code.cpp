@@ -1,56 +1,43 @@
-/*
-Slypherx - Ayush Gupta
-Pune Institute of Computer Technology
-*/
-
-#include<bits/stdc++.h>
+#include <iostream>
+#include <algorithm>
+#include <vector>
 using namespace std;
 
-#define ll long long int
-#define vll vector<ll>
-#define vin(v,n)     for(ll i=0;i<n;i++){ll x; cin>>x; v.push_back(x);}
-#define all(xx)       xx.begin(), xx.end()
-
-const int MOD = 1e9 + 7;
-int fpow(int x, int y);
-int gcd(int a, int b);
-
-void Slypher()
-{
-	int n;
-	cin >> n;
-	cout << char(n);
+bool cmp(pair<float,float> a,pair<float,float> b){
+    return a.second/a.first > b.second/b.first;
 }
 
-int main()
-{
-	ios_base::sync_with_stdio(false);
-	cin.tie(NULL);
-	cout.tie(NULL);
-	int t = 1;
-	for (int test = 1; test <= t; ++test)
-	{
-		Slypher();
-	}
-	return 0;
+float fractional_knapsack(int n, float c, vector<pair<float,float>> o){
+    float mx = 0, i = 0;
+    sort(o.begin(),o.end(),cmp);
+
+    while (c > 0 && i < n)
+    {
+        float w_inc = min(c,o[i].first);
+        float v_inc = w_inc * o[i].second / o[i].first;
+        c -= w_inc;
+        mx += v_inc;
+        i++;
+    }
+    return mx;
 }
 
-int fpow(int x, int y)
-{
-	x = x % MOD;
-	int sum = 1;
-	while (y)
-	{
-		if (y & 1)sum = sum * x;
-		sum %= MOD;
-		y = y >> 1;
-		x = x * x;
-		x %= MOD;
-	}
-	return sum;
-}
+int main(){
 
-int gcd(int a, int b)
-{
-	return b == 0 ? a : gcd(b, a % b);
+    float c, n;
+    vector<pair<float,float>> o;
+    cout << "Enter the capacity of knapsack => ";
+    cin >> c;
+    cout << "\nEnter the number of objects => ";
+    cin >> n;
+    cout << "\nEnter the weight and value of objects => \n";
+    for (int i = 0; i < n; i++)
+    {
+        int w,v;
+        cin >> w >> v;
+        o.push_back(make_pair(w,v));
+    }
+    cout << "\nmax profit is => " << fractional_knapsack(n,c,o) << endl;
+
+    return 0;
 }

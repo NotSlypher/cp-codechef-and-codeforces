@@ -187,6 +187,9 @@
     <Filter Include="Codeforces\Contest\Codeforces Round #814 %28Div. 2%29">
       <UniqueIdentifier>{5a61fdb3-0665-4e5f-a03d-3fa75aae0716}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Codeforces\Contest\Codeforces Round #815 %28Div. 2%29">
+      <UniqueIdentifier>{15d75700-61b4-4302-9b0f-9c7530cdf580}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="reversort.cpp">
@@ -785,6 +788,15 @@
     </ClCompile>
     <ClCompile Include="A. Regular Bracket Sequence.cpp">
       <Filter>Codeforces\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="A. Burenka Plays with Fractions.cpp">
+      <Filter>Codeforces\Contest\Codeforces Round #815 %28Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="B. Interesting Sum.cpp">
+      <Filter>Codeforces\Contest\Codeforces Round #815 %28Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="C. Corners.cpp">
+      <Filter>Codeforces\Contest\Codeforces Round #815 %28Div. 2%29</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
