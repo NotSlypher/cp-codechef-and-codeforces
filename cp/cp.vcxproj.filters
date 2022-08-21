@@ -190,6 +190,9 @@
     <Filter Include="Codeforces\Contest\Codeforces Round #815 %28Div. 2%29">
       <UniqueIdentifier>{15d75700-61b4-4302-9b0f-9c7530cdf580}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Codeforces\Contest\Codeforces Round #816 %28Div. 2%29">
+      <UniqueIdentifier>{6854abcc-5fd0-4a95-8af0-6bbfbc9726b0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="reversort.cpp">
@@ -797,6 +800,15 @@
     </ClCompile>
     <ClCompile Include="C. Corners.cpp">
       <Filter>Codeforces\Contest\Codeforces Round #815 %28Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="A. Crossmarket.cpp">
+      <Filter>Codeforces\Contest\Codeforces Round #816 %28Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="B. Beautiful Array.cpp">
+      <Filter>Codeforces\Contest\Codeforces Round #816 %28Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="C. Monoblock.cp.cpp">
+      <Filter>Codeforces\Contest\Codeforces Round #816 %28Div. 2%29</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
