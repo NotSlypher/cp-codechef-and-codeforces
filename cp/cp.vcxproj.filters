@@ -193,6 +193,12 @@
     <Filter Include="Codeforces\Contest\Codeforces Round #816 %28Div. 2%29">
       <UniqueIdentifier>{6854abcc-5fd0-4a95-8af0-6bbfbc9726b0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Google CodeJam\KickStart">
+      <UniqueIdentifier>{14af4b92-f3d2-41b7-884a-f38329be2c73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Google CodeJam\KickStart\Round E 2022 - Kick Start 2022">
+      <UniqueIdentifier>{2fd03ea4-9531-43ab-90af-512ca2ce800b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="reversort.cpp">
@@ -809,6 +815,12 @@
     </ClCompile>
     <ClCompile Include="C. Monoblock.cp.cpp">
       <Filter>Codeforces\Contest\Codeforces Round #816 %28Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Coloring Game.cpp">
+      <Filter>Google CodeJam\KickStart\Round E 2022 - Kick Start 2022</Filter>
+    </ClCompile>
+    <ClCompile Include="Students and Mentors.cpp">
+      <Filter>Google CodeJam\KickStart\Round E 2022 - Kick Start 2022</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
