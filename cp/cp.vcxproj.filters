@@ -199,6 +199,9 @@
     <Filter Include="Google CodeJam\KickStart\Round E 2022 - Kick Start 2022">
       <UniqueIdentifier>{2fd03ea4-9531-43ab-90af-512ca2ce800b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="codechef\CodeChef Starters\Starters 53 Division 2 %28Rated%29">
+      <UniqueIdentifier>{a60b6c1c-fa7f-4c47-91bf-b78de9848e16}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="reversort.cpp">
@@ -821,6 +824,18 @@
     </ClCompile>
     <ClCompile Include="Students and Mentors.cpp">
       <Filter>Google CodeJam\KickStart\Round E 2022 - Kick Start 2022</Filter>
+    </ClCompile>
+    <ClCompile Include="B. Scenes From a Memory.cpp">
+      <Filter>Codeforces\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="MAKEABEQUAL.cpp">
+      <Filter>codechef\CodeChef Starters\Starters 53 Division 2 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="QUEENBL.cpp">
+      <Filter>codechef\CodeChef Starters\Starters 53 Division 2 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="RING_GAME.cpp">
+      <Filter>codechef\CodeChef Starters\Starters 53 Division 2 %28Rated%29</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
