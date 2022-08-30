@@ -202,6 +202,12 @@
     <Filter Include="codechef\CodeChef Starters\Starters 53 Division 2 %28Rated%29">
       <UniqueIdentifier>{a60b6c1c-fa7f-4c47-91bf-b78de9848e16}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Codeforces\Practice\1000 and below">
+      <UniqueIdentifier>{4c955795-e423-4264-bc06-01cf1aa212ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Codeforces\Contest\Codeforces Round #817 %28Div. 4%29">
+      <UniqueIdentifier>{a365cfbd-6521-429e-98f5-ac746da621a8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="reversort.cpp">
@@ -621,9 +627,6 @@
     <ClCompile Include="STRNG.cpp">
       <Filter>codechef\CodeChef Long Challenges\June Long Two 2022 %28Rated for Div 3 &amp; 4%29</Filter>
     </ClCompile>
-    <ClCompile Include="B. Moamen and k-subarrays.cpp">
-      <Filter>Codeforces\Practice</Filter>
-    </ClCompile>
     <ClCompile Include="ENDSORTED.cpp">
       <Filter>codechef\CodeChef Starters\Starters 47 Division 2 %28Rated%29</Filter>
     </ClCompile>
@@ -648,12 +651,6 @@
     <ClCompile Include="LARGEFAM.cpp">
       <Filter>codechef\CodeChef LunchTime and CookOff\July Lunchtime 2022 Division 2 %28Rated%29</Filter>
     </ClCompile>
-    <ClCompile Include="B. Alphabetical Strings.cpp">
-      <Filter>Codeforces\Practice</Filter>
-    </ClCompile>
-    <ClCompile Include="B. Array Reodering.cpp">
-      <Filter>Codeforces\Practice</Filter>
-    </ClCompile>
     <ClCompile Include="A. Three Doors.cpp">
       <Filter>Codeforces\Contest\Educational Codeforces Round 132 %28Rated for Div. 2%29</Filter>
     </ClCompile>
@@ -663,47 +660,11 @@
     <ClCompile Include="C. Recover an RBS.cpp">
       <Filter>Codeforces\Contest\Educational Codeforces Round 132 %28Rated for Div. 2%29</Filter>
     </ClCompile>
-    <ClCompile Include="B. Bad Boy.cpp">
-      <Filter>Codeforces\Practice</Filter>
-    </ClCompile>
-    <ClCompile Include="A. Exciting Bets.cpp">
-      <Filter>Codeforces\Practice</Filter>
-    </ClCompile>
-    <ClCompile Include="A. Odd Divisor.cpp">
-      <Filter>Codeforces\Practice</Filter>
-    </ClCompile>
-    <ClCompile Include="A. Mocha and Math.cpp">
-      <Filter>Codeforces\Practice</Filter>
-    </ClCompile>
-    <ClCompile Include="A. PizzaForces.cpp">
-      <Filter>Codeforces\Practice</Filter>
-    </ClCompile>
     <ClCompile Include="A - Intersection.cpp">
       <Filter>Atcoders\AtCoder Beginner Contest 261</Filter>
     </ClCompile>
     <ClCompile Include="B - Tournament Result.cpp">
       <Filter>Atcoders\AtCoder Beginner Contest 261</Filter>
-    </ClCompile>
-    <ClCompile Include="A. Nastia and Nearly Good Numbers.cpp">
-      <Filter>Codeforces\Practice</Filter>
-    </ClCompile>
-    <ClCompile Include="B. Maximum Cost Deletion.cpp">
-      <Filter>Codeforces\Practice</Filter>
-    </ClCompile>
-    <ClCompile Include="C. Not Adjacent Matrix.cpp">
-      <Filter>Codeforces\Practice</Filter>
-    </ClCompile>
-    <ClCompile Include="A. K-divisible Sum.cpp">
-      <Filter>Codeforces\Practice</Filter>
-    </ClCompile>
-    <ClCompile Include="B. Phoenix and Puzzle.cpp">
-      <Filter>Codeforces\Practice</Filter>
-    </ClCompile>
-    <ClCompile Include="B. Absent Remainder.cpp">
-      <Filter>Codeforces\Practice</Filter>
-    </ClCompile>
-    <ClCompile Include="B. Berland Music.cpp">
-      <Filter>Codeforces\Practice</Filter>
     </ClCompile>
     <ClCompile Include="Valid Minimum.cpp">
       <Filter>codechef\CodeChef Starters\Starters 49 Division 2 %28Rated%29</Filter>
@@ -717,9 +678,6 @@
     <ClCompile Include="MONKS.cpp">
       <Filter>codechef\CodeChef Starters\Starters 49 Division 2 %28Rated%29</Filter>
     </ClCompile>
-    <ClCompile Include="C. Minimum Extraction.cpp">
-      <Filter>Codeforces\Practice</Filter>
-    </ClCompile>
     <ClCompile Include="A. Everyone Loves to Sleep.cpp">
       <Filter>Codeforces\Contest\Codeforces Round #811 %28Div. 3%29</Filter>
     </ClCompile>
@@ -728,12 +686,6 @@
     </ClCompile>
     <ClCompile Include="C. Minimum Varied Number.cpp">
       <Filter>Codeforces\Contest\Codeforces Round #811 %28Div. 3%29</Filter>
-    </ClCompile>
-    <ClCompile Include="B. String LCM.cpp">
-      <Filter>Codeforces\Practice</Filter>
-    </ClCompile>
-    <ClCompile Include="A. Contest Start.cpp">
-      <Filter>Codeforces\Practice</Filter>
     </ClCompile>
     <ClCompile Include="PERMGCD.cpp">
       <Filter>codechef\CodeChef Starters\Starters 50 Division 2 %28Rated%29</Filter>
@@ -750,12 +702,6 @@
     <ClCompile Include="AVGFLEX.cpp">
       <Filter>codechef\Practice</Filter>
     </ClCompile>
-    <ClCompile Include="B. Roof Construction.cpp">
-      <Filter>Codeforces\Practice</Filter>
-    </ClCompile>
-    <ClCompile Include="C. Save More Mice.cpp">
-      <Filter>Codeforces\Practice</Filter>
-    </ClCompile>
     <ClCompile Include="A. Traveling Salesman Problem.cpp">
       <Filter>Codeforces\Contest\Codeforces Round #812 %28Div. 2%29</Filter>
     </ClCompile>
@@ -765,23 +711,14 @@
     <ClCompile Include="C. Build Permutation.cpp">
       <Filter>Codeforces\Contest\Codeforces Round #812 %28Div. 2%29</Filter>
     </ClCompile>
-    <ClCompile Include="E1. Permutation Minimization by Deque.cpp">
-      <Filter>Codeforces\Practice</Filter>
-    </ClCompile>
     <ClCompile Include="ATTND.cpp">
       <Filter>codechef\Practice</Filter>
     </ClCompile>
     <ClCompile Include="VCS.cpp">
       <Filter>codechef\Practice</Filter>
     </ClCompile>
-    <ClCompile Include="B. MEXor Mixup.cpp">
-      <Filter>Codeforces\Practice</Filter>
-    </ClCompile>
     <ClCompile Include="CHFPLN.cpp">
       <Filter>codechef\Practice</Filter>
-    </ClCompile>
-    <ClCompile Include="B. Reverse Sort.cpp">
-      <Filter>Codeforces\Practice</Filter>
     </ClCompile>
     <ClCompile Include="A. Chip Game.cpp">
       <Filter>Codeforces\Contest\Codeforces Round #814 %28Div. 2%29</Filter>
@@ -791,15 +728,6 @@
     </ClCompile>
     <ClCompile Include="C. Fighting Tournament.cpp">
       <Filter>Codeforces\Contest\Codeforces Round #814 %28Div. 2%29</Filter>
-    </ClCompile>
-    <ClCompile Include="B. Triangles on a Rectangle.cpp">
-      <Filter>Codeforces\Practice</Filter>
-    </ClCompile>
-    <ClCompile Include="B. Chess Tournament.cpp">
-      <Filter>Codeforces\Practice</Filter>
-    </ClCompile>
-    <ClCompile Include="A. Regular Bracket Sequence.cpp">
-      <Filter>Codeforces\Practice</Filter>
     </ClCompile>
     <ClCompile Include="A. Burenka Plays with Fractions.cpp">
       <Filter>Codeforces\Contest\Codeforces Round #815 %28Div. 2%29</Filter>
@@ -825,9 +753,6 @@
     <ClCompile Include="Students and Mentors.cpp">
       <Filter>Google CodeJam\KickStart\Round E 2022 - Kick Start 2022</Filter>
     </ClCompile>
-    <ClCompile Include="B. Scenes From a Memory.cpp">
-      <Filter>Codeforces\Practice</Filter>
-    </ClCompile>
     <ClCompile Include="MAKEABEQUAL.cpp">
       <Filter>codechef\CodeChef Starters\Starters 53 Division 2 %28Rated%29</Filter>
     </ClCompile>
@@ -836,6 +761,105 @@
     </ClCompile>
     <ClCompile Include="RING_GAME.cpp">
       <Filter>codechef\CodeChef Starters\Starters 53 Division 2 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="A. Contest Start.cpp">
+      <Filter>Codeforces\Practice\1000 and below</Filter>
+    </ClCompile>
+    <ClCompile Include="A. Exciting Bets.cpp">
+      <Filter>Codeforces\Practice\1000 and below</Filter>
+    </ClCompile>
+    <ClCompile Include="A. K-divisible Sum.cpp">
+      <Filter>Codeforces\Practice\1000 and below</Filter>
+    </ClCompile>
+    <ClCompile Include="A. Mocha and Math.cpp">
+      <Filter>Codeforces\Practice\1000 and below</Filter>
+    </ClCompile>
+    <ClCompile Include="A. Nastia and Nearly Good Numbers.cpp">
+      <Filter>Codeforces\Practice\1000 and below</Filter>
+    </ClCompile>
+    <ClCompile Include="A. Odd Divisor.cpp">
+      <Filter>Codeforces\Practice\1000 and below</Filter>
+    </ClCompile>
+    <ClCompile Include="A. PizzaForces.cpp">
+      <Filter>Codeforces\Practice\1000 and below</Filter>
+    </ClCompile>
+    <ClCompile Include="A. Regular Bracket Sequence.cpp">
+      <Filter>Codeforces\Practice\1000 and below</Filter>
+    </ClCompile>
+    <ClCompile Include="B. Absent Remainder.cpp">
+      <Filter>Codeforces\Practice\1000 and below</Filter>
+    </ClCompile>
+    <ClCompile Include="B. Alphabetical Strings.cpp">
+      <Filter>Codeforces\Practice\1000 and below</Filter>
+    </ClCompile>
+    <ClCompile Include="B. Array Reodering.cpp">
+      <Filter>Codeforces\Practice\1000 and below</Filter>
+    </ClCompile>
+    <ClCompile Include="B. Bad Boy.cpp">
+      <Filter>Codeforces\Practice\1000 and below</Filter>
+    </ClCompile>
+    <ClCompile Include="B. Berland Music.cpp">
+      <Filter>Codeforces\Practice\1000 and below</Filter>
+    </ClCompile>
+    <ClCompile Include="B. Chess Tournament.cpp">
+      <Filter>Codeforces\Practice\1000 and below</Filter>
+    </ClCompile>
+    <ClCompile Include="B. Maximum Cost Deletion.cpp">
+      <Filter>Codeforces\Practice\1000 and below</Filter>
+    </ClCompile>
+    <ClCompile Include="B. MEXor Mixup.cpp">
+      <Filter>Codeforces\Practice\1000 and below</Filter>
+    </ClCompile>
+    <ClCompile Include="B. Moamen and k-subarrays.cpp">
+      <Filter>Codeforces\Practice\1000 and below</Filter>
+    </ClCompile>
+    <ClCompile Include="B. Phoenix and Puzzle.cpp">
+      <Filter>Codeforces\Practice\1000 and below</Filter>
+    </ClCompile>
+    <ClCompile Include="B. Reverse Sort.cpp">
+      <Filter>Codeforces\Practice\1000 and below</Filter>
+    </ClCompile>
+    <ClCompile Include="B. Roof Construction.cpp">
+      <Filter>Codeforces\Practice\1000 and below</Filter>
+    </ClCompile>
+    <ClCompile Include="B. Scenes From a Memory.cpp">
+      <Filter>Codeforces\Practice\1000 and below</Filter>
+    </ClCompile>
+    <ClCompile Include="B. String LCM.cpp">
+      <Filter>Codeforces\Practice\1000 and below</Filter>
+    </ClCompile>
+    <ClCompile Include="B. Triangles on a Rectangle.cpp">
+      <Filter>Codeforces\Practice\1000 and below</Filter>
+    </ClCompile>
+    <ClCompile Include="C. Minimum Extraction.cpp">
+      <Filter>Codeforces\Practice\1000 and below</Filter>
+    </ClCompile>
+    <ClCompile Include="C. Not Adjacent Matrix.cpp">
+      <Filter>Codeforces\Practice\1000 and below</Filter>
+    </ClCompile>
+    <ClCompile Include="C. Save More Mice.cpp">
+      <Filter>Codeforces\Practice\1000 and below</Filter>
+    </ClCompile>
+    <ClCompile Include="E1. Permutation Minimization by Deque.cpp">
+      <Filter>Codeforces\Practice\1000 and below</Filter>
+    </ClCompile>
+    <ClCompile Include="C. Double-ended Strings.cpp">
+      <Filter>Codeforces\Practice\1000 and below</Filter>
+    </ClCompile>
+    <ClCompile Include="B. Divan and a New Project.cpp">
+      <Filter>Codeforces\Practice\1000 and below</Filter>
+    </ClCompile>
+    <ClCompile Include="A. Spell Check.cpp">
+      <Filter>Codeforces\Contest\Codeforces Round #817 %28Div. 4%29</Filter>
+    </ClCompile>
+    <ClCompile Include="B. Colourblindness.cpp">
+      <Filter>Codeforces\Contest\Codeforces Round #817 %28Div. 4%29</Filter>
+    </ClCompile>
+    <ClCompile Include="C. Word Game.cpp">
+      <Filter>Codeforces\Contest\Codeforces Round #817 %28Div. 4%29</Filter>
+    </ClCompile>
+    <ClCompile Include="D. Line.cpp">
+      <Filter>Codeforces\Contest\Codeforces Round #817 %28Div. 4%29</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
