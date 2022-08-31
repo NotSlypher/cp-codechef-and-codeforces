@@ -17,16 +17,15 @@ int gcd(int a, int b);
 
 void Slypher()
 {
-	ll icnt = 0, n, k;
-	cin >> n >> k;
-	vll a;
-	vin(a, n)
-	for (int i = 1; i < n; ++i)
-	{
-		if (a[i] < a[i - 1])
-			icnt++;
-	}
-	cout << (k);
+	ll n, m;
+	vll r, b;
+	cin >> n;
+	vin(r, n);
+	cin >> m;
+	vin(b, m);
+	partial_sum(r.begin(), r.end(), r.begin());
+	partial_sum(b.begin(), b.end(), b.begin());
+	cout << max(0ll, *max_element(r.begin(), r.end())) + max(0ll, *max_element(b.begin(), b.end())) << '\n';
 }
 
 int main()

@@ -19,19 +19,19 @@ int test = 1;
 void Slypher()
 {
 	ll n, sum = 0, max_sum = 0;
-	string s, rs;
+	string s;
+	vll a;
 	cin >> n >> s;
 	for (ll i = 0; i < n; ++i)
 		sum += (s[i] == 'L' ? i : n - 1ll - i);
-	vector<char> a(n,'L');
-	for (int i = 0; i < n/2; ++i)
-	{
-		a[i] = 'R';
-		a[n - i - 1] = 'L';
+	for (ll i = 0; i < n; ++i)
+		a.push_back(s[i] == 'L' ? n - 1ll - i - i : i - (n - 1ll - i));
+	sort(all(a), greater<int>());
+	for (int i = 0; i < n; i++) {
+		if (a[i] > 0) { sum += a[i]; }
+		cout << sum << ' ';
 	}
-	vector<char> ra;
-	ra = reverse(all(a));
-	rs = reverse(all(s));
+	cout << '\n';
 }
 
 int main()

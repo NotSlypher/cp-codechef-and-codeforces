@@ -864,5 +864,8 @@
     <ClCompile Include="C. Polycarp Recovers the Permutation.cpp">
       <Filter>Codeforces\Practice\1000 and below</Filter>
     </ClCompile>
+    <ClCompile Include="B. Red and Blue.cpp">
+      <Filter>Codeforces\Practice\1000 and below</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
