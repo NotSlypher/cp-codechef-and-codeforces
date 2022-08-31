@@ -861,5 +861,8 @@
     <ClCompile Include="D. Line.cpp">
       <Filter>Codeforces\Contest\Codeforces Round #817 %28Div. 4%29</Filter>
     </ClCompile>
+    <ClCompile Include="C. Polycarp Recovers the Permutation.cpp">
+      <Filter>Codeforces\Practice\1000 and below</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
