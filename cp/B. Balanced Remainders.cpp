@@ -14,23 +14,27 @@ using namespace std;
 const int MOD = 1e9 + 7;
 int fpow(int x, int y);
 int gcd(int a, int b);
+int test = 1;
 
 void Slypher()
 {
-	ll cnt = 1, n, k;
-	cin >> n >> k;
-	vector<pair<ll, ll>> v;
+	ll n, cnt = 0;
+	cin >> n;
+	vll a;
+	vin(a, n);
+	vll r(3,0);
 	for (int i = 0; i < n; ++i)
-	{
-		ll val;
-		cin >> val;
-		v.push_back(make_pair(val, i));
+		r[a[i] % 3]++;
+	while (*min_element(r.begin(), r.end()) != n / 3) {
+		for (int i = 0; i < 3; i++) {
+			if (r[i] > n / 3) {
+				cnt++;
+				r[i]--;
+				r[(i + 1) % 3]++;
+			}
+		}
 	}
-	sort(all(v));
-	for (int i = 1; i < n; ++i)
-		if (v[i].second - 1 != v[i - 1].second) 
-			cnt++;
-	cout << (k >= cnt ? "Yes\n" : "No\n");
+	cout << cnt << endl;
 }
 
 int main()
@@ -40,7 +44,7 @@ int main()
 	cout.tie(NULL);
 	int t;
 	cin >> t;
-	for (int test = 1; test <= t; ++test)
+	for (test = 1; test <= t; ++test)
 	{
 		Slypher();
 	}

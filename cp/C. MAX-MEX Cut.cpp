@@ -1,4 +1,4 @@
-/*
+﻿/*
 Slypherx - Ayush Gupta
 Pune Institute of Computer Technology
 */
@@ -14,23 +14,39 @@ using namespace std;
 const int MOD = 1e9 + 7;
 int fpow(int x, int y);
 int gcd(int a, int b);
+int test = 1;
+
+int solve(string s) {
+	int ans = count(s.begin(), s.end(), '0');
+	int n = s.size();
+	bool a = false, b = false;
+	for (int i = 0; i < n; ++i) {
+		if (s[i] == '0') a = true;
+		if (s[i] == '1') b = true;
+		if (a && b) {
+			++ans;
+			a = b = false;
+		}
+	}
+	return ans;
+}
 
 void Slypher()
 {
-	ll cnt = 1, n, k;
-	cin >> n >> k;
-	vector<pair<ll, ll>> v;
-	for (int i = 0; i < n; ++i)
-	{
-		ll val;
-		cin >> val;
-		v.push_back(make_pair(val, i));
+	ll n, ans = 0;
+	string a, b;
+	cin >> n >> a >> b;
+	string s;
+	for (int i = 0; i < n; ++i) {
+		if (a[i] != b[i]) {
+			ans += 2 + solve(s);
+			s = "";
+		}
+		else {
+			s += a[i];
+		}
 	}
-	sort(all(v));
-	for (int i = 1; i < n; ++i)
-		if (v[i].second - 1 != v[i - 1].second) 
-			cnt++;
-	cout << (k >= cnt ? "Yes\n" : "No\n");
+	cout << ans + solve(s) << '\n';
 }
 
 int main()
@@ -40,7 +56,7 @@ int main()
 	cout.tie(NULL);
 	int t;
 	cin >> t;
-	for (int test = 1; test <= t; ++test)
+	for (test = 1; test <= t; ++test)
 	{
 		Slypher();
 	}

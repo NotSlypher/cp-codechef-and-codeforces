@@ -1,4 +1,4 @@
-/*
+﻿/*
 Slypherx - Ayush Gupta
 Pune Institute of Computer Technology
 */
@@ -14,23 +14,28 @@ using namespace std;
 const int MOD = 1e9 + 7;
 int fpow(int x, int y);
 int gcd(int a, int b);
+int test = 1;
 
 void Slypher()
 {
-	ll cnt = 1, n, k;
-	cin >> n >> k;
-	vector<pair<ll, ll>> v;
-	for (int i = 0; i < n; ++i)
-	{
-		ll val;
-		cin >> val;
-		v.push_back(make_pair(val, i));
+	long long A, B, a, b, res, i, ans;
+	cin >> A >> B;
+	if (!A) {
+		cout << 0 << endl;
+		return;
 	}
-	sort(all(v));
-	for (int i = 1; i < n; ++i)
-		if (v[i].second - 1 != v[i - 1].second) 
-			cnt++;
-	cout << (k >= cnt ? "Yes\n" : "No\n");
+	res = A + 3;
+	for (i = (B < 2 ? 2 - B : 0); i < res; ++i) {
+		b = B + i;
+		a = A;
+		ans = i;
+		while (a) {
+			a /= b;
+			++ans;
+		}
+		if (ans < res)res = ans;
+	}
+	cout << res << endl;	
 }
 
 int main()
@@ -40,7 +45,7 @@ int main()
 	cout.tie(NULL);
 	int t;
 	cin >> t;
-	for (int test = 1; test <= t; ++test)
+	for (test = 1; test <= t; ++test)
 	{
 		Slypher();
 	}

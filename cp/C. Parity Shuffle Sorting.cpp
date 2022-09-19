@@ -1,4 +1,4 @@
-/*
+﻿/*
 Slypherx - Ayush Gupta
 Pune Institute of Computer Technology
 */
@@ -14,23 +14,33 @@ using namespace std;
 const int MOD = 1e9 + 7;
 int fpow(int x, int y);
 int gcd(int a, int b);
+int test = 1;
 
 void Slypher()
 {
-	ll cnt = 1, n, k;
-	cin >> n >> k;
-	vector<pair<ll, ll>> v;
-	for (int i = 0; i < n; ++i)
+	ll n;
+	vll a;
+	cin >> n;
+	vin(a, n);
+	vector<pair<ll, ll>> nd;
+	if (n == 1)
+		cout << "0\n";
+	else
 	{
-		ll val;
-		cin >> val;
-		v.push_back(make_pair(val, i));
+		ll par = a[0] % 2;
+		nd.push_back({ 1,n });
+		((a[0] + a[n - 1]) % 2 == 1 ? a[n - 1] = a[0] : a[0] = a[n - 1]);
+		for(int i = 1; i < n - 1; ++i)
+		{
+			if (par == 0)
+				(a[i] % 2 ? nd.push_back({ 1, i + 1 }) : nd.push_back({ i + 1, n }));
+			else
+				(a[i] % 2 == 0 ? nd.push_back({ 1, i + 1 }) : nd.push_back({ i + 1, n }));
+		}
+		cout << nd.size() << endl;
+		for (auto ans : nd)
+			cout << ans.first << " " << ans.second << "\n";
 	}
-	sort(all(v));
-	for (int i = 1; i < n; ++i)
-		if (v[i].second - 1 != v[i - 1].second) 
-			cnt++;
-	cout << (k >= cnt ? "Yes\n" : "No\n");
 }
 
 int main()
@@ -40,7 +50,7 @@ int main()
 	cout.tie(NULL);
 	int t;
 	cin >> t;
-	for (int test = 1; test <= t; ++test)
+	for (test = 1; test <= t; ++test)
 	{
 		Slypher();
 	}
