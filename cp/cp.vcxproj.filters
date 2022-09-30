@@ -220,6 +220,12 @@
     <Filter Include="Atcoders\TOYOTA MOTOR CORPORATION Programming Contest 2022%28AtCoder Beginner Contest 270%29">
       <UniqueIdentifier>{64b5dadb-58a9-4faf-b988-f2205e97a17b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Codeforces\Contest\Educational Codeforces Round 136 %28Rated for Div. 2%29">
+      <UniqueIdentifier>{9015741c-d963-4228-8426-52cfe0938e81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Codeforces\Contest\Codeforces Global Round 22">
+      <UniqueIdentifier>{7e552770-6746-4ecc-b2ed-02ede8a2ac28}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="reversort.cpp">
@@ -911,6 +917,21 @@
     </ClCompile>
     <ClCompile Include="C - Simple path.cpp">
       <Filter>Atcoders\TOYOTA MOTOR CORPORATION Programming Contest 2022%28AtCoder Beginner Contest 270%29</Filter>
+    </ClCompile>
+    <ClCompile Include="C. Pair Programming.cpp">
+      <Filter>Codeforces\Practice\1100</Filter>
+    </ClCompile>
+    <ClCompile Include="B. Minor Reduction.cpp">
+      <Filter>Codeforces\Practice\1100</Filter>
+    </ClCompile>
+    <ClCompile Include="A. Immobile Knight.cpp">
+      <Filter>Codeforces\Contest\Educational Codeforces Round 136 %28Rated for Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="B. Array Recovery.cpp">
+      <Filter>Codeforces\Contest\Educational Codeforces Round 136 %28Rated for Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="C. Card Game.cpp">
+      <Filter>Codeforces\Contest\Educational Codeforces Round 136 %28Rated for Div. 2%29</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
