@@ -223,8 +223,20 @@
     <Filter Include="Codeforces\Contest\Educational Codeforces Round 136 %28Rated for Div. 2%29">
       <UniqueIdentifier>{9015741c-d963-4228-8426-52cfe0938e81}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Codeforces\Contest\Codeforces Global Round 22">
-      <UniqueIdentifier>{7e552770-6746-4ecc-b2ed-02ede8a2ac28}</UniqueIdentifier>
+    <Filter Include="codechef\CodeChef Starters\Starters 60 Division 2 %28Rated%29">
+      <UniqueIdentifier>{135a7e47-9ab1-4d29-9804-3e5b7e18e9eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Codeforces\CPL">
+      <UniqueIdentifier>{d32977c9-5c8f-46f6-8e0c-873c2c2ccbf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Codeforces\CPL\CPL 2022 Group 3 Contest 1">
+      <UniqueIdentifier>{c47d7de3-7522-4958-b903-9d8928183f0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Codeforces\Contest\Educational Codeforces Round 137 %28Rated for Div. 2%29">
+      <UniqueIdentifier>{84b7e68f-6e90-4c4c-b543-df755864636d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Codeforces\CPL\CPL 2022 Group 2 - Contest 2">
+      <UniqueIdentifier>{60a2d009-aa34-40ee-8531-5a4da5856f5d}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -932,6 +944,42 @@
     </ClCompile>
     <ClCompile Include="C. Card Game.cpp">
       <Filter>Codeforces\Contest\Educational Codeforces Round 136 %28Rated for Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FLIPPAL.cpp">
+      <Filter>codechef\CodeChef Starters\Starters 60 Division 2 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="DISKMOV.cpp">
+      <Filter>codechef\CodeChef Starters\Starters 60 Division 2 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="ARRPAL.cpp">
+      <Filter>codechef\CodeChef Starters\Starters 60 Division 2 %28Rated%29</Filter>
+    </ClCompile>
+    <ClCompile Include="J. Circular Local MiniMax.cpp">
+      <Filter>Codeforces\CPL\CPL 2022 Group 3 Contest 1</Filter>
+    </ClCompile>
+    <ClCompile Include="I. Everything Everywhere All But One.cpp">
+      <Filter>Codeforces\CPL\CPL 2022 Group 3 Contest 1</Filter>
+    </ClCompile>
+    <ClCompile Include="A. Password.cpp">
+      <Filter>Codeforces\Contest\Educational Codeforces Round 137 %28Rated for Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="B. Permutation Value.cpp">
+      <Filter>Codeforces\Contest\Educational Codeforces Round 137 %28Rated for Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="C. Save the Magazines.cpp">
+      <Filter>Codeforces\Contest\Educational Codeforces Round 137 %28Rated for Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="D. Problem with Random Tests.cpp">
+      <Filter>Codeforces\Contest\Educational Codeforces Round 137 %28Rated for Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="K. Shawarma Tent.cpp">
+      <Filter>Codeforces\CPL\CPL 2022 Group 2 - Contest 2</Filter>
+    </ClCompile>
+    <ClCompile Include="J. Charmed by the Game.cpp">
+      <Filter>Codeforces\CPL\CPL 2022 Group 2 - Contest 2</Filter>
+    </ClCompile>
+    <ClCompile Include="I. Rubik%27s Cube Coloring (easy version).cpp">
+      <Filter>Codeforces\CPL\CPL 2022 Group 2 - Contest 2</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
